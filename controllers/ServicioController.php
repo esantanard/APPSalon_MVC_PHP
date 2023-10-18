@@ -20,6 +20,7 @@ class ServicioController {
     public static function crear(Router $router){
         isAdmin();
         $servicio = new Servicio;
+        $alertas = [];
         
         if($_SERVER['REQUEST_METHOD'] === 'POST'){
             $servicio->sincronizar($_POST);
