@@ -1,0 +1,23 @@
+{
+    "name": "daniela/app-salon_php_mvc_js_sass",
+    "description": "Proyecto App Salon",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eduardo",
+            "email": "correo@correo.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
